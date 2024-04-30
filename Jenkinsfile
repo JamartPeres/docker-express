@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        // Aquí podrías definir variables de entorno que necesitas
-        BRANCH_NAME_CLEANED = '' // Se establecerá dinámicamente más abajo
+        
+        BRANCH_NAME_CLEANED = '' 
     }
 
     stages {
@@ -29,6 +29,6 @@ pipeline {
             }
         }
         
-        // Aquí podrías añadir más stages como para pruebas o despliegue
+        
     }
 }
